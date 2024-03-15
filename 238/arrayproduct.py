@@ -15,7 +15,7 @@ class Solution:
 
         return output
 
-# This solution as optimizations for zero product, but it performs just as well or worse than the simplier version above
+# This solution has optimizations for zero products, but it performs just as well or worse than the simpler version above
 # class Solution:
 #     def productExceptSelf(self, nums: list[int]) -> list[int]:
 #         output = [1]
