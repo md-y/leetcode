@@ -1,6 +1,7 @@
 class Solution:
     def findDuplicate(self, nums: list[int]) -> int:
-        # Length of nums is <= 10^5, so it is O(1) space
+        # Can't modify nums and extra space should be O(1).
+        # Length of nums is <= 10^5, so it is O(1) space (technically)
         found_nums = [0] * len(nums)
         for i in nums:
             if found_nums[i]:
